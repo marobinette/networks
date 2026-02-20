@@ -11,3 +11,6 @@ matrix = [
 
 def test_get_node_degree():
     assert get_node_degree(matrix, 3) == 4
+
+def test_get_highest_degree_node():
+    assert get_highest_degree(matrix) == {3: 4, 6: 4}
